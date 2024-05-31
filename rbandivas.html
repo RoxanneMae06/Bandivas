@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandivas Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 70px; /* Adjust according to navbar height */
+        }
+
+        #home {
+            background-color: #f2fa84; /* Pastel yellow */
+            color: #333; /* Dark Gray */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        #about {
+            background-color: #6bfcc7; /* Pastel Mint */
+            color: #333; /* Dark Gray */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        #contact {
+            background-color: #52b8f3; /* Pastel blue */
+            color: #333; /* Dark Gray */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: #333; /* Dark Gray */
+        }
+
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #FF69B4; /* Pink */
+        }
+
+        .navbar-brand {
+            color: #333; /* Dark Gray */
+        }
+
+        .navbar-brand:hover {
+            color: #FF69B4; /* Pink */
+        }
+
+        .highlight {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="70">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#home">My 3 Pages Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="section-content">
+            <h1>Welcome</h1>
+            <p>Welcome to my personal website! Here, you can learn more about me and how to get in touch. Use the navigation links to explore the About and Contact sections. This website is designed with a pastel color scheme to provide a pleasant and calming user experience.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-content">
+            <h1>About Me</h1>
+            <p>Hello! My name is <span class="highlight">Roxanne Mae D. Bandivas</span>, and I am a student of DS3A. I have a passion for technology and design, and I enjoy learning new skills in these areas. My interests include web development, graphic design, and programming. I am always eager to take on new challenges and improve my knowledge.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-content">
+            <h1>Contact Me</h1>
+            <p>If you would like to get in touch, you can reach me via email at:</p>
+            <p><a href="mailto:bandivas.roxannemae@gmail.com">bandivas.roxannemae@gmail.com</a></p>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
